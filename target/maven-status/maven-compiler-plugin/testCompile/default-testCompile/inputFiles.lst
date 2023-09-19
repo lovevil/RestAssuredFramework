@@ -3,3 +3,5 @@
 /Users/shubhamsaini/eclipse-workspace/RestAssuredFramework/src/test/java/Tests/UserTests.java
 /Users/shubhamsaini/eclipse-workspace/RestAssuredFramework/src/test/java/EndPoints/Routes.java
 /Users/shubhamsaini/eclipse-workspace/RestAssuredFramework/src/test/java/Payload/UserDetails.java
+/Users/shubhamsaini/eclipse-workspace/RestAssuredFramework/src/test/java/Payload/OrderDetails.java
+/Users/shubhamsaini/eclipse-workspace/RestAssuredFramework/src/test/java/Tests/StoreTests.java

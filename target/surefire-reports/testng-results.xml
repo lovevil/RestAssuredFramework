@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-18T15:28:01Z" name="Suite" finished-at="2023-09-18T15:28:09Z" duration-ms="7856">
+  <suite name="Suite" duration-ms="7161" started-at="2023-09-19T14:57:54Z" finished-at="2023-09-19T14:58:01Z">
     <groups>
     </groups>
-    <test started-at="2023-09-18T15:28:01Z" name="Test" finished-at="2023-09-18T15:28:09Z" duration-ms="7856">
-      <class name="Tests.UserTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.UserTests@1de5f259]" started-at="2023-09-18T15:28:01Z" name="setup" finished-at="2023-09-18T15:28:02Z" duration-ms="213" status="PASS">
+    <test name="StoreTests" duration-ms="7161" started-at="2023-09-19T14:57:54Z" finished-at="2023-09-19T14:58:01Z">
+      <class name="Tests.StoreTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.StoreTests@161479c6]" name="setup" is-config="true" duration-ms="51" started-at="2023-09-19T14:57:54Z" finished-at="2023-09-19T14:57:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createUserTest()[pri:1, instance:Tests.UserTests@1de5f259]" started-at="2023-09-18T15:28:02Z" name="createUserTest" finished-at="2023-09-18T15:28:05Z" duration-ms="3306" status="PASS">
+        <test-method status="PASS" signature="placeOrderTest()[pri:1, instance:Tests.StoreTests@161479c6]" name="placeOrderTest" duration-ms="2505" started-at="2023-09-19T14:57:54Z" finished-at="2023-09-19T14:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method status="PASS" signature="getOrderDetailsTest()[pri:2, instance:Tests.StoreTests@161479c6]" name="getOrderDetailsTest" duration-ms="1516" started-at="2023-09-19T14:57:57Z" finished-at="2023-09-19T14:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderDetailsTest -->
+        <test-method status="PASS" signature="deleteOrderDetailsTest()[pri:3, instance:Tests.StoreTests@161479c6]" name="deleteOrderDetailsTest" duration-ms="1536" started-at="2023-09-19T14:57:58Z" finished-at="2023-09-19T14:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderDetailsTest -->
+        <test-method status="PASS" signature="getPetInventoryDetailsTest()[pri:4, instance:Tests.StoreTests@161479c6]" name="getPetInventoryDetailsTest" duration-ms="1537" started-at="2023-09-19T14:58:00Z" finished-at="2023-09-19T14:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetInventoryDetailsTest -->
+      </class> <!-- Tests.StoreTests -->
+    </test> <!-- StoreTests -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="5659" started-at="2023-09-19T14:58:01Z" finished-at="2023-09-19T14:58:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5659" started-at="2023-09-19T14:58:01Z" finished-at="2023-09-19T14:58:07Z">
+      <class name="Tests.UserTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.UserTests@7f552bd3]" name="setup" is-config="true" duration-ms="110" started-at="2023-09-19T14:58:01Z" finished-at="2023-09-19T14:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createUserTest()[pri:1, instance:Tests.UserTests@7f552bd3]" name="createUserTest" duration-ms="1347" started-at="2023-09-19T14:58:01Z" finished-at="2023-09-19T14:58:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest -->
-        <test-method signature="getUserDetailsTest()[pri:2, instance:Tests.UserTests@1de5f259]" started-at="2023-09-18T15:28:05Z" name="getUserDetailsTest" finished-at="2023-09-18T15:28:07Z" duration-ms="1558" status="PASS">
+        <test-method status="PASS" signature="getUserDetailsTest()[pri:2, instance:Tests.UserTests@7f552bd3]" name="getUserDetailsTest" duration-ms="1417" started-at="2023-09-19T14:58:03Z" finished-at="2023-09-19T14:58:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserDetailsTest -->
-        <test-method signature="updateUserDetailsTest()[pri:3, instance:Tests.UserTests@1de5f259]" started-at="2023-09-18T15:28:07Z" name="updateUserDetailsTest" finished-at="2023-09-18T15:28:08Z" duration-ms="1444" status="PASS">
+        <test-method status="PASS" signature="updateUserDetailsTest()[pri:3, instance:Tests.UserTests@7f552bd3]" name="updateUserDetailsTest" duration-ms="1349" started-at="2023-09-19T14:58:04Z" finished-at="2023-09-19T14:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserDetailsTest -->
-        <test-method signature="deleteUserDetailsTest()[pri:4, instance:Tests.UserTests@1de5f259]" started-at="2023-09-18T15:28:08Z" name="deleteUserDetailsTest" finished-at="2023-09-18T15:28:09Z" duration-ms="1319" status="PASS">
+        <test-method status="PASS" signature="deleteUserDetailsTest()[pri:4, instance:Tests.UserTests@7f552bd3]" name="deleteUserDetailsTest" duration-ms="1434" started-at="2023-09-19T14:58:06Z" finished-at="2023-09-19T14:58:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserDetailsTest -->
       </class> <!-- Tests.UserTests -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Suite (0) -->
 </testng-results>

@@ -1,22 +1,13 @@
 package Tests;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-import Payload.UserDetails;
-import io.restassured.response.Response;
-
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
 import EndPoints.Endpoints;
+import Payload.UserDetails;
+import io.restassured.response.Response;
 
 public class UserTests {
 	
@@ -42,6 +33,8 @@ public class UserTests {
 	
 	@Test(priority = 1)
 	public void createUserTest() {
+		
+		System.out.println("user tests started");
 		
 		
 		Response response = Endpoints.createUser(payload);
@@ -87,6 +80,8 @@ public class UserTests {
 		response.then().statusCode(200);
 		
 		response.then().log().body();
+		
+		System.out.println("user tests ended");
 		
 	}
 	
